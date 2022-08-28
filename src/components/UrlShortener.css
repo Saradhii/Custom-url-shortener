@@ -1,0 +1,64 @@
+.mock11cont{
+    width:100%;
+    height:750px;
+    border: 1px solid white;
+    background-image: url(https://wallpaperaccess.com/full/744781.jpg);
+}
+
+.mock11main{
+   width:50%;
+   background-image: url(https://img.freepik.com/free-vector/abstract-wallpaper-concept_23-2148479714.jpg?size=626&ext=jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 8%;
+   color:white;
+   padding: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mock11main:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#fe259c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+a:hover{
+  color:crimson;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=text]:hover {
+    border:1px solid #fe259c;
+}
+input[type=text]:focus {
+    border:1px solid #fe259c;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    background-color: #ccc;
+    padding:10px;
+}
